@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Company</title>
+</head>
+
+<body>
+    <h1>Users</h1>
+    <div id="people"></div>
+    <script src="faker.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+<!-- Resultados del generador:
+Archivo /data.json
+
+
+Command ,insertar elementos creados en el script:
+
+db.people.insertMany([])
+
+Comand, actualizar los salarios de la ciudad Kovacekberg:
+
+db.people.updateMany({ "city": "Kovacekberg"} , {$inc:{"salary" : +200}})
+
+Command , Eliminacion personas menores 18 años:
+
+db.people.deleteMany({"age": {$lte : 18}}) -->
